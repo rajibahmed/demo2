@@ -32,9 +32,17 @@
     "style-loader": "^0.18.2",
     "webpack": "^3.2.0",
     "webpack-manifest-plugin": "^1.1.2",
+    "ember-webpack-loaders": "^0.2.0",
     "webpack-merge": "^4.1.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "^2.5.1"
+    "webpack-dev-server": "^2.5.1",
+    "components-ember": "https://github.com/components/ember/tarball/2.2.0",
+    "handlebars": "^4.0.5",
+    "jquery": "2.1.0",
+    "material-ui": "^0.18.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "todomvc-app-css": "^2.0.4" 
   }
 }

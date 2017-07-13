@@ -15,6 +15,7 @@ const extensionGlob = `**/*{${settings.extensions.join(',')}}*`
 const entryPath = join(settings.source_path, settings.source_entry_path)
 const packPaths = sync(join(entryPath, extensionGlob))
 
+
 module.exports = {
   entry: packPaths.reduce(
     (map, entry) => {
@@ -44,7 +45,11 @@ module.exports = {
     })
   ],
 
-  resolve: {
+	resolve: {
+		alias: {
+			ember: join(entryPath, 'ember.js'),
+			app: join(entryPath, 'app.js')
+		},
     extensions: settings.extensions,
     modules: [
       resolve(settings.source_path),
