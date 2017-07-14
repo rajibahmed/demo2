@@ -1,3 +1,3 @@
 import './jquery'
-import Ember as 'components-ember/ember.min'
-export default Ember
+import 'components-ember/ember.min'
+export default window.Ember
