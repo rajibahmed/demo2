@@ -47,8 +47,8 @@ module.exports = {
 
 	resolve: {
 		alias: {
-			ember: join(entryPath, 'ember.js'),
-			app: join(entryPath, 'app.js')
+			ember: resolve(join(entryPath, 'ember')),
+			app: resolve(join(entryPath, 'app'))
 		},
     extensions: settings.extensions,
     modules: [
