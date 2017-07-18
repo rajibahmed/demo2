@@ -1,6 +1,12 @@
 module.exports = {
-	test: /app\javascipt\/packs\/app\/index\.js/,
+	test: /app\/javascript\/packs\/app\/templates\/*.hbs$/,
 	use: [
+		{
+			loader: 'ember-webpack-loaders/htmlbars-loader',
+			options: {
+				appPath: './app/javascript/packs/app',
+			}
+		},
 		{
 			loader: 'ember-webpack-loaders/inject-templates-loader',
 			options: {

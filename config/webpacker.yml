@@ -6,12 +6,11 @@ default: &default
   public_output_path: packs
 
   extensions:
+    - .hbs
     - .coffee
-    - .erb
     - .js
     - .jsx
     - .ts
-    - .vue
     - .sass
     - .scss
     - .css

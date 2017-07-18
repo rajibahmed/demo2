@@ -1266,6 +1266,12 @@ complex.js@2.0.4:
   dependencies:
     jquery ">=1.7.0 < 2.2.0"
 
+"components-ember@https://github.com/components/ember/tarball/2.7.0":
+  version "2.7.0"
+  resolved "https://github.com/components/ember/tarball/2.7.0#208d7f10d8805c44cf97b3c9e37d1bf525ea90fc"
+  dependencies:
+    jquery ">=1.7.0 <3.0.0"
+
 compressible@~2.0.10:
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/compressible/-/compressible-2.0.10.tgz#feda1c7f7617912732b29bf8cf26252a20b9eecd"
@@ -1720,9 +1726,9 @@ ember-cli-version-checker@^1.0.2:
   dependencies:
     semver "^5.3.0"
 
-ember-webpack-loaders@^0.2.0:
+"ember-webpack-loaders@github:rajibahmed/ember-webpack-loaders":
   version "0.2.0"
-  resolved "https://registry.yarnpkg.com/ember-webpack-loaders/-/ember-webpack-loaders-0.2.0.tgz#5266e30001ec81c4d21e638009789780a368d9ae"
+  resolved "https://codeload.github.com/rajibahmed/ember-webpack-loaders/tar.gz/378e101e85552f6e02d218c2d9aef5e6d174cd92"
   dependencies:
     components-ember "https://github.com/components/ember/tarball/2.2.0"
     ember-cli-htmlbars "^1.0.2"
@@ -2697,7 +2703,7 @@ javascript-natural-sort@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/javascript-natural-sort/-/javascript-natural-sort-0.7.1.tgz#f9e2303d4507f6d74355a73664d1440fb5a0ef59"
 
-jquery@2.1.0, "jquery@>=1.7.0 < 2.2.0":
+jquery@2.1.0, "jquery@>=1.7.0 < 2.2.0", "jquery@>=1.7.0 <3.0.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-2.1.0.tgz#1c9a8c971d2b53dae10d72e16cbb5a1df16a4ace"
 
