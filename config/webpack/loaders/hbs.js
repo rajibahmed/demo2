@@ -1,5 +1,6 @@
 module.exports = {
-	test: /app\/javascript\/packs\/app\/templates\/*.hbs$/,
+	test: /\.hbs$/,
+	include: /app\/javascript\/packs\/app\/templates/,
 	use: [
 		{
 			loader: 'ember-webpack-loaders/htmlbars-loader',

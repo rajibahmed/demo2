@@ -14,6 +14,7 @@
     "coffee-script": "^1.12.6",
     "compression-webpack-plugin": "^0.4.0",
     "css-loader": "^0.28.4",
+    "ember-webpack-loaders": "github:rajibahmed/ember-webpack-loaders",
     "expose-loader": "^0.7.3",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^0.11.2",
@@ -36,8 +37,7 @@
     "webpack-merge": "^4.1.0"
   },
   "devDependencies": {
-    "components-ember": "https://github.com/components/ember/tarball/2.7.0",
-    "ember-webpack-loaders": "^0.2.0",
+    "components-ember": "https://github.com/components/ember/tarball/2.2.0",
     "handlebars": "^4.0.5",
     "jquery": "2.1.0",
     "material-ui": "^0.18.3",
