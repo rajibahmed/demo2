@@ -5,9 +5,27 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application' %>
+    <%= javascript_pack_tag 'app/components/todo-input' %>
+    <%= javascript_pack_tag 'app/components/todo-item' %>
+    <%= javascript_pack_tag 'app/controllers/application' %>
+    <%= javascript_pack_tag 'app/controllers/todos/index' %>
+    <%= javascript_pack_tag 'app/helpers/or' %>
+    <%= javascript_pack_tag 'app/helpers/pluralize' %>
     <%= javascript_pack_tag 'app/index' %>
+    <%= javascript_pack_tag 'app/router' %>
+    <%= javascript_pack_tag 'app/routes/todos/active' %>
+    <%= javascript_pack_tag 'app/routes/todos/completed' %>
+    <%= javascript_pack_tag 'app/routes/todos/index' %>
+    <%= javascript_pack_tag 'app/services/todo-localstorage' %>
+    <%= javascript_pack_tag 'app/stylesheets' %>
+    <%= javascript_pack_tag 'app/templates/application' %>
+    <%= javascript_pack_tag 'app/templates/components/todo-item' %>
+    <%= javascript_pack_tag 'app/templates/todos/index' %>
+    <%= javascript_pack_tag 'app/vendor' %>
+    <%= javascript_pack_tag 'application' %>
+    <%= javascript_pack_tag 'ember' %>
     <%= javascript_pack_tag 'hello_react' %>
+    <%= javascript_pack_tag 'jquery' %>
   </head>
   <body>
     <%= yield %>
