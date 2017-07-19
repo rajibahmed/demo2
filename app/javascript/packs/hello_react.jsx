@@ -7,7 +7,10 @@ import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 
 const Hello = props => (
-  <div>Hello {props.name}!</div>
+  <div style={{ textAlign: 'center', border: '1px solid #ccc' }}>
+    <h1> Hello {props.name}!  </h1>
+    <h3> This is a React Component </h3>
+  </div>
 )
 
 Hello.defaultProps = {
