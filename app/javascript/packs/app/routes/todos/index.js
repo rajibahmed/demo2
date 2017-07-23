@@ -39,8 +39,7 @@ export default Ember.Route.extend({
   },
 
   todosList() {
-		//return Em.A(this.get('todoService').list().records)
-    return [this.get('todoService').list().records]
+		return Ember.A(this.get('todoService').list().records)
   },
 
   completedTodos() {
