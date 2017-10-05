@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+.capture-app{
+  text-align: center;
+  border: 1px solid red;
+}
+
+.capture-app button {
+  padding: 20px 30px;
+  border: 2px solid black;
+  color: white;
+  font-weight: 600;
+  background: red;
+}
